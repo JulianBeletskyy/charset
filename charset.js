@@ -82,6 +82,6 @@ angular.module('app').directive('charSet', function(getShortUrl, logger) {
 				return $scope.area.prop("selectionStart");
 			};
 		}],
-		templateUrl: '/uib/template/charset/charset.html'
+		templateUrl: '/charset.html'
 	};
 });
